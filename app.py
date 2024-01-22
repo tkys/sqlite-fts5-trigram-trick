@@ -93,12 +93,12 @@ else:
     pass    
 
 # 検索クエリを実行
-#print(search("検索"))  # 例: "検索"
+#print(search("cat"))  # 例: "cat"
 
 import time
 st= time.time()
-search("tri")    # 例: "の"
+search("te")    # 例: "te"
 print(time.time()-st)
 
-# リソースを閉じる
+# connectionを閉じる
 conn.close()
